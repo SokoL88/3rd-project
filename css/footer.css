@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.header,
+.footer {
+    background-color: blue;
+    padding: 20px;
+}
+
+
+.text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+}
+
